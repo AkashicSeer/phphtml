@@ -5,7 +5,7 @@
  * not complete yet or it uses global only
  */
 
-namespace App\Html;
+namespace Html;
 
 
 class LegendTagAttributes extends GlobalHtmlAttributes

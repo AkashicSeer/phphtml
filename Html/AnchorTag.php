@@ -1,15 +1,20 @@
 <?php
 
 
-namespace App\Html;
+namespace Html;
 
 /**
  * Class AnchorTag : creates HTML Anchor tag also known as a link
- * @package App\Html
+ * @package Html
  */
 class AnchorTag
 {
 
+    /**
+     * @param string $text
+     * @param array $attributes
+     * @return string
+     */
     public static function getAnchorTag(string $text, array $attributes = array()): string
     {
         $element = 'a';

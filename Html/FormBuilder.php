@@ -3,12 +3,12 @@
 /**
  *  @author akashic seer <akashicseer@gmail.com>
  */
-namespace App\Html;
+namespace Html;
 
 /**
  * Class FormBuilder : The most absolute basic form creating class you will ever see.
  * Add each element in the form to a div, span label group etc.
- * @package App\Html
+ * @package Html
  */
 class FormBuilder
 {

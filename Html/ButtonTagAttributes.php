@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Html;
+namespace Html;
 
 
 class ButtonTagAttributes extends GlobalHtmlAttributes

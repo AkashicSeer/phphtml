@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Html;
+namespace Html;
 /**
  * Description of HtmlElement : this class creates HTML elements
  * Date Created : Apr 20, 2016 1:05:54 AM

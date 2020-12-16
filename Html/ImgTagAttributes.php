@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Html;
+namespace Html;
 /**
  * Description of ImgTagAttributes: attributes constant list for creating img tags.
  * Date Created : Aug 8, 2016 6:08:19 PM

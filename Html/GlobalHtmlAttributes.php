@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Html;
+namespace Html;
 /**
  * Description of GlobalHtmlAttributes : These are the attributes of html
  * elements shared globally Other elements have particular attributes which are

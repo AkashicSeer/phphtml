@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Html;
+namespace Html;
 
 
 class FieldsetTagAttributes extends GlobalHtmlAttributes

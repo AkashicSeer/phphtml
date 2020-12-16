@@ -13,3 +13,17 @@ If you need elements that do not exist create a class and use HtmlElement. ImgTa
 I created this because there are so many HTML elements some have opening and closing tags and some just one self closing tag. I could never remember which used what so I created classes to make it easier. Same with the Attributes each freakin element has special attributes and global attributes, hence the Attributes classes.
 
 The attributes classes are basically constants to prevent having to remember all that crap.
+
+Example
+    <?php
+    namespace Html;
+    use Html\GlobalHtmlAttributes;
+    $linkText = 'Hello World';
+    $attributes = array(
+     GlobalHtmlAttributes::ID_ATTRIBUTE => 'anyIdYouWant',
+     GlobalHtmlAttributes::class => 'aClassName'
+    );
+
+    $linkHtml = AnchorTag::getAnchorTag($linkText, $attributes);
+
+#linkHtml will be <a id="anyIdYouWant" class="aClassName">Hello World</a>

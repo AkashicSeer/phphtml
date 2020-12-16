@@ -3,7 +3,7 @@
 /**
  *  @author akashic seer <akashicseer@gmail.com>
  */
-namespace App\Html;
+namespace Html;
 
 
 class OrderedList

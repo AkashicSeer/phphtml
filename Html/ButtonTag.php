@@ -1,11 +1,11 @@
 <?php
 
 
-namespace App\Html;
+namespace Html;
 
 /**
  * Class ButtonTag: creates a button element
- * @package App\Html
+ * @package Html
  */
 class ButtonTag
 {

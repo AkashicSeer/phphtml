@@ -1,5 +1,5 @@
 <?php
-namespace App\Html;
+namespace Html;
 
 /**
  * Description of FormHtmlAttributes : this class lists form specific attributes

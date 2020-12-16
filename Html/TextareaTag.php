@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Html;
+namespace Html;
 /**
  * @author  akashic seer <akashicseer@gmail.com>
  * created Apr 23, 2014 8:28:43 PM

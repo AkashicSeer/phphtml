@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Html;
+namespace Html;
 
 class FormTag
 {
